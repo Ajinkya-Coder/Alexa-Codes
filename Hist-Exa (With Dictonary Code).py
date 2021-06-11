@@ -59,7 +59,7 @@ history = {
     "Nanda":["SpchImg","The Nanda Empire, at its greatest extent, extended from Bengal in the east, to the Punjab region in the west and as far south as the Vindhya Range. The Nanda dynasty was famed for their great wealth.","Nanda.jpg"],
     "mahajanapada":["SpchImg","Some Janapadas gradually become stronger and expanded their geographical boundaries. Such janapads are called Mahajanapads.","Mahajanapadas.png"],
     "Magadha":["SpchImg","Magadha formed one of the sixteen Maha - Janapadas. Its first capital was Rajagriha (modern Rajgir) then Pataliputra (modern Patna)","Magdha.jpg"],
-    "Janapada":["SpchImg","Janapads were the many small states that spread from today’s Afganistan which is to northwest of Indian Subcontinent to Bengal and Odisha in the east and to Maharashtra in south.","Janapada.jpg"],
+    "janapada":["SpchImg","Janapads were the many small states that spread from today’s Afganistan which is to northwest of Indian Subcontinent to Bengal and Odisha in the east and to Maharashtra in south.","Janapada.jpg"],
     "kosala":["SpchImg","Mahajanapda Kosala is located on foothills of Himalayas in Utter Pradesh and Nepal. Later empire merged in Magdha.","Kosala.png"],
     "Kalinga":["SpchImg","Kalinga is a historical region of India. It is generally defined as the eastern coastal region between the Mahanadi and the Godavari rivers, although its boundaries have fluctuated with the territory of its rulers. The core territory of Kalinga now encompasses a large part of Odisha and northerneastern part of Andhra Pradesh. At its widest extent, the Kalinga region also included parts of present-day southwestern West Bengal and Chhattisgarh.","kalinga.png"],
     "Avanti":["SpchImg","Mahajanpad Avanti is located in Malwa region Madhya Pradesh.Later empire too merged in Magdha.","Avanti.jpg"],
@@ -134,7 +134,7 @@ while True:
                     if history[keyword][0]=="SpchImg":
                         #Showing Image
                         images=pygame.image.load("Images/"+ history[keyword][2])
-                        image21=pygame.transform.scale(images, (900,400))
+                        image21=pygame.transform.scale(images, (1000,450))
                         screen.blit(image21,(95,135))
                         pygame.display.update()
                         
