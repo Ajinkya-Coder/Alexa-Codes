@@ -134,7 +134,7 @@ while True:
                     if history[keyword][0]=="SpchImg":
                         #Showing Image
                         images=pygame.image.load("Images/"+ history[keyword][2])
-                        image21=pygame.transform.scale(images, (1000,500))
+                        image21=pygame.transform.scale(images, (900,400))
                         screen.blit(image21,(95,135))
                         pygame.display.update()
                         
@@ -142,9 +142,6 @@ while True:
                         engine.say(history[keyword][1])
                         engine.runAndWait()
                         
-                    else:
-                        engine.say("I don't know it")
-                        engine.runAndWait()
                         
                     if  history[keyword][0]=="exit":
                         engine.say(history[keyword][1])
